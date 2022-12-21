@@ -1,0 +1,78 @@
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: "topo topo" "main aside" "footer footer";
+    grid-template-columns: 1fr 200px;
+}
+
+header {
+    grid-area: topo;
+
+    background-color: red;
+    padding: 40px 40px 10px 40px;
+    text-align: center;
+}
+nav {
+    text-align: left;
+}
+header ul {
+    list-style: none;
+}
+header li {
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+main {
+    grid-area: main;
+
+    background-color: blue;
+}
+.text h1, h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+.text p {
+    text-indent: 2em;
+    padding: 20px;
+}
+aside {
+    grid-area: aside;
+    background-color: gray;
+}
+aside a {
+    display: block;
+    padding: 5px;
+}
+
+
+footer {
+    grid-area: footer;
+
+    background-color: green;
+}
+footer p {
+    font-size: 1.5em;
+    padding: 20px;
+}
+@media (min-width: 1200px) {
+    #espaco {
+        width: 700px;
+        margin: auto;
+    }
+    nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
