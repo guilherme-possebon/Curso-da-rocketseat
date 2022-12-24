@@ -1,8 +1,10 @@
-let pao = false
-let queijo = true
+let bread = false
+let cheese = true
 
-const niceBreakfast = pao || queijo ? "Café da manhã bom" : "Café da manhã horrivel"
-
-
+const niceBreakfast = bread || cheese ? "Good brakfast" : "Horrible brakfast"
 
 console.log(niceBreakfast)
+
+let age = 18
+const canDrive = age >= 18 ? "Can drive" : "Can't drive"
+console.log(canDrive);
