@@ -1,0 +1,17 @@
+* {
+    width: 50%;
+    height: 50%;
+}
+body {
+    display: flex;
+    align-items: center;
+
+}
+button {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
