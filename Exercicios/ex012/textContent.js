@@ -82,13 +82,33 @@
 //     console.log('print');
 // }
 
-const inputconst = document.querySelector('input')
-inputconst.onkeyup = function() {
-    inputconst.style.backgroundColor = 'red'
-    console.log('para cima');
-}
+// const inputconst = document.querySelector('input')
+// inputconst.onkeyup = function() {
+//     inputconst.style.backgroundColor = 'red'
+//     console.log('para cima');
+// }
 
-inputconst.onkeydown = function() {
-    inputconst.style.backgroundColor = 'green'
-    console.log('para baixo');
+// inputconst.onkeydown = function() {
+//     inputconst.style.backgroundColor = 'green'
+//     console.log('para baixo');
+// }
+
+// -------------------------------------------------------------------------------------
+
+// const h1const = document.querySelector('h1')
+
+// h1const.addEventListener('mouseenter', entrou)
+// h1const.addEventListener('', entrou)
+// function entrou() {
+//     console.log('entrou');
+// }
+
+// -------------------------------------------------------------------------------------
+
+// Argument event
+
+const inputconst = document.querySelector('input')
+
+inputconst.onkeypress = function(event) {
+    console.log(event);
 }
