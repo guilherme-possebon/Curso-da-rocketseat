@@ -98,7 +98,7 @@
 // const h1const = document.querySelector('h1')
 
 // h1const.addEventListener('mouseenter', entrou)
-// h1const.addEventListener('', entrou)
+// h1const.addEventListener('mouseleave', entrou)
 // function entrou() {
 //     console.log('entrou');
 // }
@@ -107,8 +107,8 @@
 
 // Argument event
 
-const inputconst = document.querySelector('input')
+const inputconst = document.querySelector('h1')
 
-inputconst.onkeypress = function(event) {
+inputconst.onkeydown = function(event) {
     console.log(event);
 }
